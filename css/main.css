@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(184deg, #3ea6eb, #0e0232);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  padding: 20px 30px;
+}
+.header__title {
+  position: relative;
+  color: #052e3b;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #3ea6eb;
+  margin-bottom: 0;
+}
+
+.main {
+  margin: 0 auto;
+  text-align: center;
+}
+.main__roles {
+  padding-top: 40px;
+}
+
+.btn__send,
+.btn__rmv {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
